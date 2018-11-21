@@ -1,6 +1,7 @@
 # D3ScrollableTabBar
-![](demo.gif)
 A scrollable Tab Bar. Can be used as bottom or top level bar. Add any number of Tabs.
+
+![](bottomBarGif.gif)
 
 # USAGE
 # 1) Create Items:
@@ -13,7 +14,7 @@ A scrollable Tab Bar. Can be used as bottom or top level bar. Add any number of 
            item.backgroundColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
            
         return item
-        
+      demo.gif  
     }()
     
 # 2) Setup Bar and Add Items
