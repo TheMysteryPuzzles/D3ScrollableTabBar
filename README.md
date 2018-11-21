@@ -26,19 +26,13 @@ A scrollable Tab Bar. Can be used as bottom or top level bar. Add any number of 
       
       bottomView.delegate = self
  
-4)Implement Delegate Function:
+# 4)Implement Delegate Function:
 
+    func didSelect(barItem item: BottomBarItem) {
+	 self.label.text = "Tab# \(item.tag)"
+     }
 # Item can be identified using item.tag.Tag is assigned by the order of item added.
-  
-	
-  func didSelect(barItem item: BottomBarItem) {
-	
-    self.label.text = "Tab# \(item.tag)"
-		
-    }
-    
-		
- # Thats it.
+# Thats it.
  
  # TODO:
  ADD Animation while switching tabs.
